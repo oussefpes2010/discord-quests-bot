@@ -3,7 +3,7 @@ import ms from "ms";
 
 export default {
     // Bot configuration
-    token: "", // Discord Bot Token (move to .env in production)
+    token: "MTQxNTgxNDA3MDk2MzE0MjcwNg.GzHzet.hIqLXy06u7PgLik3OQW19Iv1kCQYiAoXQJwjQ4", // Discord Bot Token (move to .env in production)
     prefix: "-", // Bot prefix (currently unused)
 
     // MongoDB connection URI
@@ -64,17 +64,17 @@ export default {
     // Notification settings (e.g. for role pings or logs)
     notification: {
         sendDm: true, // Send DM to users on quest notifications
-        serverid: "947363468414160916", // Server for notifications
-        channelid: "1343257911870230538", // Notification channel ID
-        role: "1343547598543519774" // Role to mention
+        serverid: "1381945417314471947", // Server for notifications
+        channelid: "1381945417826308211", // Notification channel ID
+        role: "1381945485534953535" // Role to mention
     },
 
     // Server-specific settings related to quest interaction
     server: {
-        serverid: "947363468414160916", // Main server ID
-        channelid: "1235946958611284069", // Voice channel ID required
-        roleId: "1279032632859951185", // Role needed to participate
-        logChannel: "1247620593914740908", // Channel for internal logs
+        serverid: "1381945417314471947", // Main server ID
+        channelid: "1381945417826308211", // Voice channel ID required
+        roleId: "1381945485534953535", // Role needed to participate
+        logChannel: "1416030561641693204", // Channel for internal logs
 
         // Message shown when a user isn't in the server
         joinMessage: `## انت مو داخل السيرفر
@@ -101,8 +101,8 @@ export default {
 
     // Developer IDs with full access to bot
     devlopers: [
-        "622486784038666242", // Main dev
-        "527826654660132890"  // Co-dev/support
+        "youssef056411", // Main dev
+        "1381945417314471947"  // Co-dev/support
     ],
 
     // Button section shown in bot embeds
